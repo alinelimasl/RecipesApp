@@ -1,7 +1,5 @@
 import { useLocation, Link } from 'react-router-dom';
 import { useState } from 'react';
-import profileIcon from '../images/profileHeaderIcon.svg';
-import searchIcon from '../images/searchIcon.svg';
 import { HeaderType } from '../Types/types';
 import SearchBar from './SearchBar';
 import '../css/Header.css';
@@ -30,7 +28,7 @@ function Header() {
           {(path === 'meals' || path === 'drinks') && (
             <button type="button" onClick={ () => setViewSearch(!viewSearch) }>
               <img
-                src={ searchIcon }
+                src="searchIcon.svg"
                 alt="Ícone de Busca"
                 data-testid="search-top-btn"
               />
@@ -40,7 +38,7 @@ function Header() {
             to="/profile"
           >
             <img
-              src={ profileIcon }
+              src="profileHeaderIcon.svg"
               alt="Ícone de Perfil"
               data-testid="profile-top-btn"
             />
