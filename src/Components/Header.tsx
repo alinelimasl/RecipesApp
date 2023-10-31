@@ -21,14 +21,14 @@ function Header() {
     <>
       <header className="header">
         <Link to="/meals">
-          <img src="logo2.png" alt="logo-header" className="logo-header" />
+          <img src="/logo2.png" alt="logo-header" className="logo-header" />
         </Link>
         <div className="header-info">
           <h2>Recipes App</h2>
           {(path === 'meals' || path === 'drinks') && (
             <button type="button" onClick={ () => setViewSearch(!viewSearch) }>
               <img
-                src="searchIcon.svg"
+                src="/searchIcon.svg"
                 alt="Ícone de Busca"
                 data-testid="search-top-btn"
               />
@@ -38,7 +38,7 @@ function Header() {
             to="/profile"
           >
             <img
-              src="profileHeaderIcon.svg"
+              src="/profileHeaderIcon.svg"
               alt="Ícone de Perfil"
               data-testid="profile-top-btn"
             />
@@ -48,7 +48,7 @@ function Header() {
       {Object.keys(title).includes(path) && (
         <div className="title">
           <img
-            src={ `${path}Icon.svg` }
+            src={ `/${path}Icon.svg` }
             alt="title-img"
             className="img-title"
           />

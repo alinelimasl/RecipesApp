@@ -67,8 +67,8 @@ function ShareAndFavoriteButton({ path,
       >
         <img
           data-testid="favorite-btn"
-          src={ isFavorite ? 'blackHeartIcon.svg'
-            : 'whiteHeartIcon.svg' }
+          src={ isFavorite ? '/blackHeartIcon.svg'
+            : '/whiteHeartIcon.svg' }
           alt="favorite button"
         />
       </button>
@@ -77,7 +77,7 @@ function ShareAndFavoriteButton({ path,
       >
         <img
           data-testid="share-btn"
-          src="shareIcon.svg"
+          src="/shareIcon.svg"
           alt="share button"
         />
       </button>
