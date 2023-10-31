@@ -23,7 +23,7 @@ function Header() {
     <>
       <header className="header">
         <Link to="/meals">
-          <img src="/src/images/logo2.png" alt="logo-header" className="logo-header" />
+          <img src="logo2.png" alt="logo-header" className="logo-header" />
         </Link>
         <div className="header-info">
           <h2>Recipes App</h2>
@@ -50,7 +50,7 @@ function Header() {
       {Object.keys(title).includes(path) && (
         <div className="title">
           <img
-            src={ `/src/images/${path}Icon.svg` }
+            src={ `${path}Icon.svg` }
             alt="title-img"
             className="img-title"
           />

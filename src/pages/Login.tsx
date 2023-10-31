@@ -40,7 +40,7 @@ export default function Login() {
   if (loading) {
     return (
       <div className="initial-page">
-        <img src="/src/images/logoPage.svg" alt="login-page" />
+        <img src="logoPage.svg" alt="login-page" />
         <p>Recipes App</p>
       </div>
     );
@@ -48,9 +48,9 @@ export default function Login() {
 
   return (
     <div className="container-login">
-      <img src="/src/images/fotocomida.png" alt="tomato" className="food-login" />
+      <img src="fotocomida.png" alt="tomato" className="food-login" />
       <div className="top-div">
-        <img src="/src/images/logo.png" alt="imagem de fundo" />
+        <img src="logo.png" alt="imagem de fundo" />
       </div>
       <form onSubmit={ handleSubmit }>
         <h2 className="login-text">Login</h2>

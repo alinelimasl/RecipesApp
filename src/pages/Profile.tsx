@@ -27,7 +27,7 @@ function Profile() {
           className="profile-btn"
           data-testid="profile-done-btn"
         >
-          <img src="src/images/done-recipesIcon.svg" alt="Done Recipes Icon" />
+          <img src="done-recipesIcon.svg" alt="Done Recipes Icon" />
           <p>Done Recipes</p>
         </div>
       </Link>
@@ -37,7 +37,7 @@ function Profile() {
           data-testid="profile-favorite-btn"
         >
           <img
-            src="src/images/favorite-recipesIcon.svg"
+            src="favorite-recipesIcon.svg"
             alt="Favorite Recipes Icon"
           />
           <p>Favorite Recipes</p>
@@ -49,7 +49,7 @@ function Profile() {
           data-testid="profile-logout-btn"
           onClick={ handleLogout }
         >
-          <img src="src/images/logoutIcon.svg" alt="Logout icon" />
+          <img src="logoutIcon.svg" alt="Logout icon" />
           <p>Logout</p>
         </button>
       </Link>

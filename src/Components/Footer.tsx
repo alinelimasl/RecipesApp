@@ -16,7 +16,7 @@ function Footer() {
             to="/drinks"
           >
             <img
-              src="/src/images/footerDrinks.svg"
+              src="footerDrinks.svg"
               alt="Drink Icon"
               data-testid="drinks-bottom-btn"
             />
@@ -26,7 +26,7 @@ function Footer() {
             to="/meals"
           >
             <img
-              src="/src/images/footerMeals.svg"
+              src="footerMeals.svg"
               alt="Meal Icon"
               data-testid="meals-bottom-btn"
             />

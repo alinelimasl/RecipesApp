@@ -63,19 +63,19 @@ function DoneRecipes() {
           data-testid="filter-by-all-btn"
           onClick={ () => handleFilterRecipe('all') }
         >
-          <img src="/src/images/allFilterDoneRecipes.svg" alt="all filter button" />
+          <img src="allFilterDoneRecipes.svg" alt="all filter button" />
         </button>
         <button
           data-testid="filter-by-meal-btn"
           onClick={ () => handleFilterRecipe('meal') }
         >
-          <img src="/src/images/mealsFilterDoneRecipes.svg" alt="all filter button" />
+          <img src="mealsFilterDoneRecipes.svg" alt="all filter button" />
         </button>
         <button
           data-testid="filter-by-drink-btn"
           onClick={ () => handleFilterRecipe('drink') }
         >
-          <img src="/src/images/drinksFilterDoneRecipes.svg" alt="all filter button" />
+          <img src="drinksFilterDoneRecipes.svg" alt="all filter button" />
         </button>
       </div>
       {doneRecipes.map((recipe, index) => (
@@ -102,7 +102,7 @@ function DoneRecipes() {
               >
                 <img
                   data-testid={ `${index}-horizontal-share-btn` }
-                  src="/src/images/shareIcon.svg"
+                  src="shareIcon.svg"
                   alt="share button"
                 />
               </button>

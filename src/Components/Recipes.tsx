@@ -51,16 +51,16 @@ function Recipes() {
   };
 
   const imagesFilter = {
-    Beef: '/src/images/beefFilter.svg',
-    Breakfast: '/src/images/breakfastFilter.svg',
-    Chicken: '/src/images/chickenFilter.svg',
-    Dessert: '/src/images/dessertFilter.svg',
-    Goat: '/src/images/goatFilter.svg',
-    Cocktail: '/src/images/cocktailFilter.svg',
-    'Ordinary Drink': '/src/images/ordinaryDrinkFilter.svg',
-    Shake: '/src/images/shakeFilter.svg',
-    'Other / Unknown': '/src/images/otherUnknownFilter.svg',
-    Cocoa: '/src/images/cocoaFilter.svg',
+    Beef: 'beefFilter.svg',
+    Breakfast: 'breakfastFilter.svg',
+    Chicken: 'chickenFilter.svg',
+    Dessert: 'dessertFilter.svg',
+    Goat: 'goatFilter.svg',
+    Cocktail: 'cocktailFilter.svg',
+    'Ordinary Drink': 'ordinaryDrinkFilter.svg',
+    Shake: 'shakeFilter.svg',
+    'Other / Unknown': 'otherUnknownFilter.svg',
+    Cocoa: 'cocoaFilter.svg',
   };
 
   const removeAllFilters = async () => {
@@ -88,7 +88,7 @@ function Recipes() {
         >
           <img
             src={ path === 'meals'
-              ? '/src/images/allFilterIcon.svg' : '/src/images/allFilterIconDrink.svg' }
+              ? 'allFilterIcon.svg' : 'allFilterIconDrink.svg' }
             alt="Filtro Icon All"
           />
         </button>

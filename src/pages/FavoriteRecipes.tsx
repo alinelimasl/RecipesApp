@@ -59,19 +59,19 @@ function FavoriteRecipes() {
           onClick={ () => handleFilterFavorite('all') }
           data-testid="filter-by-all-btn"
         >
-          <img src="/src/images/allFilterDoneRecipes.svg" alt="all filter button" />
+          <img src="allFilterDoneRecipes.svg" alt="all filter button" />
         </button>
         <button
           onClick={ () => handleFilterFavorite('meal') }
           data-testid="filter-by-meal-btn"
         >
-          <img src="/src/images/mealsFilterDoneRecipes.svg" alt="all filter button" />
+          <img src="mealsFilterDoneRecipes.svg" alt="all filter button" />
         </button>
         <button
           onClick={ () => handleFilterFavorite('drink') }
           data-testid="filter-by-drink-btn"
         >
-          <img src="/src/images/drinksFilterDoneRecipes.svg" alt="all filter button" />
+          <img src="drinksFilterDoneRecipes.svg" alt="all filter button" />
         </button>
       </div>
 
@@ -116,7 +116,7 @@ function FavoriteRecipes() {
               >
                 <img
                   data-testid={ `${index}-horizontal-share-btn` }
-                  src="/src/images/shareIcon.svg"
+                  src="shareIcon.svg"
                   alt="share-button"
                 />
               </button>
@@ -126,7 +126,7 @@ function FavoriteRecipes() {
               >
                 <img
                   data-testid={ `${index}-horizontal-favorite-btn` }
-                  src="/src/images/blackHeartIcon.svg"
+                  src="blackHeartIcon.svg"
                   alt="favorite-button"
                 />
               </button>
