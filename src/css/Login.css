@@ -1,0 +1,91 @@
+.initial-page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.initial-page p {
+  font-weight: 600;
+  margin: 5px;
+}
+
+.container-login {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.container-login input {
+  border: 0.5px solid rgb(65, 25, 127);
+  border-radius: 5px;
+  color: #79155b;
+  font-weight: 600;
+  height: 40px;
+  margin-top: 5px;
+  text-align: center;
+  width: 280px;
+}
+
+.container-login button {
+  background: rgb(252, 196, 54);
+  border: 2px solid rgb(219, 168, 39);
+  border-radius: 5px;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  height: 40px;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 280px;
+}
+
+.container-login button:disabled {
+  background: rgb(255, 229, 162);
+  border: 2px solid rgb(236, 226, 198);
+}
+
+.login-text {
+  color: #79155b;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container-login form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+}
+
+.top-div {
+  align-items: center;
+  background-color: #79155b;
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.top-div img {
+  width: 90%;
+}
+
+.food-login {
+  left: 100px;
+  position: fixed;
+  top: 29%;
+  width: 400px;
+}

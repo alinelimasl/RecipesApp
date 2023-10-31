@@ -1,0 +1,101 @@
+.btn-filters {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  width: 80vw;
+}
+
+.btn-filters button {
+  background: none;
+  border: none;
+}
+
+.done-recipe-card {
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  display: flex;
+  margin: 10px auto;
+  max-height: 150px;
+  max-width: 90vw;
+  min-height: 130px;
+}
+
+.done-image-card {
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
+  width: 160px;
+}
+
+.done-image-card img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.done-info-card {
+  padding: 10px 10px 10px 15px;
+}
+
+.done-info-title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  max-width: 150px;
+}
+
+.done-info-title a {
+  color: #1a1b1c;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.done-info-category {
+  color: #797d86;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.text-copied {
+  color: #797d86;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 5px 0 0;
+}
+
+.done-info-title button {
+  background: none;
+  border: none;
+}
+
+.done-info-card img {
+  width: 25px;
+}
+
+.done-date {
+  color: #1a1b1c;
+  font-size: 11px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.done-tag {
+  background-color: gray;
+  border-radius: 20px;
+  color: white;
+  font-size: 10px;
+  margin: 10px 4px 0 0;
+  max-width: max-content;
+  padding: 3px 10px;
+}
+
+.done-recipes-container {
+  margin: 0 auto 30px;
+}
+
+.done-tags {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}

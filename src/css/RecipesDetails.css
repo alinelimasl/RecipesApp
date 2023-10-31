@@ -1,0 +1,177 @@
+.details-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.details-container h2 {
+  color: #1a1b1c;
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.details-container iframe {
+  height: 28vh;
+  margin: 20px;
+  max-width: 90vw;
+}
+
+.details-img {
+  filter: brightness(40%);
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.title-details {
+  color: var(--beige);
+  font-weight: 900;
+  left: calc(50% - 150px);
+  letter-spacing: 5px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 35vw;
+  width: 288px;
+}
+
+.title-recipe {
+  font-size: 32px;
+  height: 35px;
+  overflow: hidden;
+  padding: 7px 10px;
+}
+
+.category-title {
+  color: rgb(189, 189, 189);
+  font-size: 20px;
+  font-weight: 600;
+  left: calc(50% - 146px);
+  letter-spacing: 5px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 48vw;
+  width: 288px;
+}
+
+.ingredients-list {
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  padding: 20px;
+  width: 90vw;
+}
+
+.ingredients-list ul {
+  list-style-type: none;
+}
+
+.instructions {
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  padding: 20px;
+  text-align: justify;
+  width: 90vw;
+}
+
+.share-and-button-details button {
+  background: none;
+  border: none;
+}
+
+.share-and-button-details {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 70px;
+  width: 100vw;
+}
+
+.share-and-button-details img {
+  margin: 0 20px;
+  padding: 5px;
+  width: 40px;
+}
+
+.recommendation-container {
+  display: flex;
+  overflow-x: auto;
+  width: 95vw;
+}
+
+.recommendation-card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  max-height: 200px;
+  width: 180px;
+}
+
+.recommendation-card img {
+  border-radius: 5px 5px 0 0;
+  height: 160px;
+  object-fit: cover;
+  width: 180px;
+}
+
+.recommendation-card p {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 15px;
+  text-overflow: ellipsis;
+}
+
+.button-start {
+  align-items: center;
+  background: #ffba86;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  height: 30px;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 90vw;
+}
+
+.button-start:disabled {
+  background: var(--beige);
+  opacity: 0.5;
+}
+
+.start-btn {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 100vw;
+}
+
+.ingredients-list input {
+  margin-right: 15px;
+}
+
+.ingredients-list label {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+

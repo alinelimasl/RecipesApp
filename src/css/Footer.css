@@ -1,0 +1,33 @@
+.footer {
+  align-items: center;
+  background-color: #f6635c;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  max-height: 60px;
+  position: fixed;
+  width: 100vw;
+}
+
+.meals-btn, .drinks-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.meals-btn img {
+  height: 50px;
+  width: 50px;
+}
+
+.drinks-btn img {
+  height: 35px;
+  margin-top: 4px;
+  width: 35px;
+}
